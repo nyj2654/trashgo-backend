@@ -30,6 +30,8 @@ public class Trash {
 
     private int returnMoney;
 
+    private String address;
+
     public Long getId() {
         return id;
     }
@@ -93,4 +95,8 @@ public class Trash {
     public void setReturnMoney(int returnMoney) {
         this.returnMoney = returnMoney;
     }
+
+    public String getAddress() {return address;}
+
+    public void setAddress(String address) {this.address = address;}
 }
